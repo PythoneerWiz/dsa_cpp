@@ -1,6 +1,7 @@
-#include<iostream>
- using namespace std;
-int main(){ 
+// #include<iostream>
+// #include<math.h>
+//  using namespace std;
+// int main(){ 
 
     // char a;
     // cin>>a;
@@ -333,10 +334,78 @@ int main(){
 // }
 // cout<<endl;
 // row=row+1;
-// }
 
+    // int a=4;
+    // int b=6;
+    // cout<< "a&b" << (a&b) << endl;
+    // cout<< "a|b" << (a|b) << endl;
+    // cout<< "~a" << (~a) << endl;
+    // cout<< "a^b" << (a^b) << endl;
+
+// int n=20; 
+// int a=0;
+// int b=1;
+// cout<<a <<" "<<b<<" ";
+// for(int i=1;i<=n;i++){
+//     int nextNumber=a+b;
+//     cout<<nextNumber<<" ";
+//     a=b;
+//     b=nextNumber;
+
+// }
+// for(int i=0; i<=5; i++){
+//     cout<<i<<" ";
+//     i++;
+// } 
+  
+//     int n;
+//     cin>>n;
+//     int ans=0;
+//     int i=0;
+//     while(n!=0){
+//         int bit=n & 1;
+//         ans=(bit * pow(10,i)) + ans;
+//         n=n>>1;
+//         i++;
+//     }
+// cout<<ans;
+// int n,i=0,ans=0;
+//   cout<<"Enter the number "<<endl;
+//   cin>>n;
+
+//  n=abs(n);
+
+//   n=n^(-1); //1s compliment representation
+//   n=n+1; //2s compliment representation
+
+//   int a=9;
+//   while(a>=0){
+
+//     int bit = n&1;
+//     ans=(bit*powf(10,i))+ans;
+//     n=n>>1;
+//     i++;
+//     a--;
+    
+//   }
+
+//   cout<<"Answer is "<<ans<<endl;
+#include<iostream>
+using namespace std;
+int main(){
+     int a;
+  cin>>a;
+  if(a>0){
+    cout<<"A is positive";
 
 }
+  
+ 
+  }
+
+
+
+
 
 
 
