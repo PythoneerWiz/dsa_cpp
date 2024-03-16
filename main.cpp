@@ -145,7 +145,7 @@ int main(){
 //         value=row-col+1;
 //         col=col+1;
 //     }
-//     cout<<endl;
+//     cout<<endl;  
 //     row=row+1;
 // }
 
