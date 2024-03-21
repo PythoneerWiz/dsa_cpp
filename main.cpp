@@ -215,6 +215,22 @@ int main(){
 
 // }
 // cout<<ans;
+
+char ch='1';
+int num=2;
+cout<<endl;
+switch(num){
+  case 1: cout<<"first";
+            break;
+  case 2: cout<<"second"<<endl;
+            break;
+  default:cout<<"default case";
+
+}
+cout<<endl;
+return 0;
+
+
 }
 
  
