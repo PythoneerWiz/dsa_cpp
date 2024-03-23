@@ -377,6 +377,75 @@ using namespace std;
 //   cout<<nCr(n,r)<<endl;
 
 // }
+// int main(){
+//   int number[5]={5,6,7,8,9};
+//   cout<<"value at 4th index"<<endl<<number[4]<<endl;
+
+//   int second[20]={2,3,4,5};
+//    int n=20;
+//    int i;
+//    int index;
+//    cout<<"printing the array"<<endl;
+//    for(i=0;i<n;i++){
+
+//     cout<<second[i]<<endl;
+//    }
+
+
+//     }
+// int INT_MIN;
+// int INT_MAX;
+// // int i;
+// int getMin(int num[],int n){
+//   int min = INT_MAX;
+//   for(int i=0;i<n;i++){
+//     if(num[i]<min){
+//       min=num[i];
+
+//     }
+
+//   }
+//   return min;
+
+
+// }
+
+// // int INT_MIN;
+// // int i;
+// int getMAX(int num[],int n){
+//   int max = INT_MAX;
+//   for(int i=0;i<n;i++){
+//     if(num[i]>max){
+//       max=num[i];
+
+//     }
+
+//   }
+//   return max;
+
+
+// }
+
+// int main(){
+//    int size;
+//    int i;
+//    cin>>size; 
+//    int num[100];
+//    for(i=0;i<size;i++){
+//     cin>>num[i];
+//     cout<<"max value is "<<getMAX(num,size)<<endl;
+//     cout<<"min value is "<<getMin(num,size)<<endl;
+   
+
+//    }
+
+
+
+// }
+
+
+
+
 
 
 
