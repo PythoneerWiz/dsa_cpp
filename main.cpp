@@ -443,6 +443,91 @@ using namespace std;
 
 // }
 
+// int getMin(int num[],int n){
+//    int min  = INT8_MAX;
+//    for(int i=0;i<n;i++){
+//     if(num[i]<min){
+//       min=num[i];
+
+//     }
+//    }
+//    return min;
+
+// }
+// int getMax(int num[],int n){
+//    int max = INT8_MIN;
+//    for(int i=0;i<n;i++){
+//     if(num[i]>max){
+//       max=num[i];
+
+//     }
+//    }
+//    return max;
+
+// }
+
+// int main(){
+//   int size;
+//   cin>>size;
+//   int num[100];
+//   for(int i=0;i<size;i++){
+//     cin>>num[i];
+//     cout<<"max value is"<<getMax(num,size)<<endl;
+//     cout<<"min value is"<<getMin(num,size)<<endl;
+
+//   }
+  
+
+// }
+// int ArraySum(int arr[],int n){
+//   int sum=0;
+//   for(int i=0;i<n;i++){
+//     sum=sum+arr[i];
+
+//   } 
+//   return sum;
+// }
+
+// int main(){
+//   int arr[100];
+//   int size;
+//   cout<<"enter the size of array"<<endl;
+//   cin>>size;
+
+//   for(int i=0;i<=size;i++){
+//     cin>>arr[i];
+//     cout<<"value of sum is"<<ArraySum(arr,size)<<endl;
+
+//   }
+
+// }
+// bool search(int arr[],int n,int key){
+//   for(int i=0;i<n;i++){
+//     if(arr[i]==key){
+//       // cout<<"key is found"<<endl;
+//       return 1;
+
+//     }
+
+//   }
+//     return 0;
+
+// }
+// int main(){
+//   int arr[10]={2,3,4,5,6,7,8,9,11,22};
+//   cout<<"enter the value of key"<<endl;
+//   int key;
+//   cin>>key;
+//   bool found  = search(arr,10,key);
+//   if(found){
+//     cout<<"key is present"<<endl;
+//   }
+// else{
+//   cout<<"key is not present"<<endl;
+// }
+
+// }
+
 
 
 
