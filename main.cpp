@@ -1,4 +1,5 @@
 #include<iostream>
+// #include<bits/stdc++.h>
 using namespace std;
 // int main(){
 // //      int a,b;
@@ -560,6 +561,101 @@ using namespace std;
 //   printArray(arr,5);
   
 // }
+// void printArray(int arr[],int n){
+//   for(int i=0;i<n;i++){
+//     cout<<arr[i]<<endl;
+
+//   }
+
+// }
+// void SwapAlternate(int arr[],int size){
+//   for(int i=0;i<size;i+2){
+//     if(i+1<size){
+//       swap(arr[i],arr[i+1]);
+//     }
+//   }
+// }
+// int main(){
+//   int arr[6] = {1,3,2,7,11,8};
+//   SwapAlternate(arr,6);
+//   printArray(arr,6);
+//   cout<<arr;
+
+//   return 0;
+
+
+// }
+// swapping alternate.
+// int swapFun(int arr[],int size,int temp){
+//   temp=0;
+// for(int i=0;i<size;i+2 ){
+//   if(i+1<size){
+//     temp=arr[i];
+//     arr[i]=arr[i+1];
+//     arr[i+1]=temp;
+
+//   }
+// }
+
+// for(int i=0;i<size;i++){
+//   cout<<arr[i]<<endl;
+// }
+
+// }
+ 
+
+// int main(){
+//   int temp;
+//   int arr[6]={2,3,4,5,66,7};
+
+//   for(int i=0;i<6;i++){
+//     cout<<arr[i]<<endl;
+
+//   }
+//     swapFun(arr,6,temp);
+
+//   return 0;
+// }
+
+// #include<iostream>
+// using namespace std;
+
+// void printArray(int arr[], int n) {
+
+//     for(int i = 0; i<n; i++ ) {
+//         cout<< arr[i] <<" ";
+//     }cout<<endl;
+
+// }
+
+// void swapAlternate(int arr[], int size) {
+
+//     for(int i = 0; i<size; i+=2 ) {
+//         if(i+1 < size) {
+//             swap(arr[i], arr[i+1]);
+//         }
+//     }
+
+// }
+
+// int main() {
+
+//     int even[8] = {5,2,9,4,7,6,1,0};
+//     int odd[5] = {11, 33, 9, 76, 43};
+
+//     swapAlternate(even, 8);
+//     printArray(even, 8);
+
+//     cout << endl;
+
+//     swapAlternate(odd, 5);
+//     printArray(odd, 5);
+
+
+
+//     return 0;
+// }
+
 
 
 
