@@ -654,7 +654,26 @@ using namespace std;
 
 
 //     return 0;
+// int main(){
+// int n=10, k=5;
+// int number;
+// cout<<"Enter the number of candies <<";
+// cin>>number;
+
+// if(number>1 && number<=5){
+//   cout<<"candies sold"<<endl<<number<<endl;
+//   cout<<"candies available"<<endl<<n-number;
 // }
+// else{
+//   cout<<"invalid number";
+//   cout<<"candies available<<";
+
+// }
+// return 0;
+
+// }
+
+
 
 
 

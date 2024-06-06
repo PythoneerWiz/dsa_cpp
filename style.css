@@ -5,3 +5,11 @@
 #firstdiv{
     background-color: brown;
 }
+#seconddiv{
+    color: yellow;
+    background-color: rgb(172, 87, 2);
+}
+img{
+    border: 5px solid black;
+}
+
