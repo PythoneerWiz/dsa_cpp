@@ -672,6 +672,61 @@ using namespace std;
 // return 0;
 
 // }
+// int main(){
+
+  // int year;
+  // cout<<"enter the year";
+  // cin>>year;
+  
+  // if(((year%4==0)  &&(year%100!=0)) || (year%400==0)){
+
+  // cout<<"it is a leap year";
+  // }
+  // else{
+  //   cout<<"it is not a leap year";
+  // }
+  // return 0;
+
+  // int n,i;
+  // cout<<"enter the value of n";
+  // cin>>n;
+  // int a[n],count=0,cmp;
+
+  // for(i=0;i<n;i++){
+  //   cin>>a[i];
+  // }
+  // cout<<"enter the element to find the frequency";
+  // cin>>cmp;
+  // for(i=0;i<n;i++){
+  //   if(a[i]==cmp)
+  //   count++;
+
+  // }
+  // cout<<"frequency of element"<<count;
+  // return 0;
+
+// int main() {
+// int n,i,ans;
+// cout<<"enter the value of n";
+// cin>>n;
+// int a[n];
+// for( i=0;i<n;i++){
+//   cin>>a[i];
+  
+// }
+// cout<<"enter the value of array to be searched";
+// for(i=0;i<n;i++){
+//   if(a[i]%2==0){
+//     cout<<"even";
+
+//   }
+//   else{
+//     cout<<"odd";
+//   }
+
+// }
+// return 0;
+// }
 
 
 
