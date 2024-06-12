@@ -1,5 +1,6 @@
 #include<iostream>
 // #include<bits/stdc++.h>
+#include<vector>
 using namespace std;
 // int main(){
 // //      int a,b;
@@ -729,6 +730,43 @@ using namespace std;
 // }
 
 
+  // int n;
+  // int arr[40]={1,2,3,4,50};
+  // // cout<<"enter the value of n"<<endl;
+  // // cin>>n;
+  // // cout<<"enter the number"<<endl;
+  //  for(int i=0;i<arr[i];i++){
+  //  cout<<"array"<<arr[i];
+
+  //  }
+  //  cout<<"double"<<endl;
+  //  for(int i=0;i<arr[i];i++){
+  //   cout<<arr[i]*2<<endl;
+
+  //  }
+  int findUnique(vector<int>arr){
+    int ans=0;
+    for(int i=0;i<arr.size();i++){
+      ans=ans^arr[i];
+    }
+    return ans;
+  }
+int main()  {
+  int n;
+  cout<<"enter the size of an array"<<endl;
+  cin>>n;
+  vector<int>arr(n);
+  for(int i=0;i<arr.size();i++){
+    cin>>arr[i];
+
+  }
+
+  int uniqueElement = findUnique(arr);
+  cout<<"unique element"<<uniqueElement<<endl;
+   return 0;
+
+}
+  
 
 
 
