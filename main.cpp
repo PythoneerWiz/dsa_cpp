@@ -744,28 +744,155 @@ using namespace std;
   //   cout<<arr[i]*2<<endl;
 
   //  }
-  int findUnique(vector<int>arr){
-    int ans=0;
-    for(int i=0;i<arr.size();i++){
-      ans=ans^arr[i];
-    }
-    return ans;
-  }
-int main()  {
-  int n;
-  cout<<"enter the size of an array"<<endl;
-  cin>>n;
-  vector<int>arr(n);
-  for(int i=0;i<arr.size();i++){
-    cin>>arr[i];
+  //  FIND UNIQUE ELEMENT 
+//   int findUnique(vector<int>arr){
+//     int ans=0;
+//     for(int i=0;i<arr.size();i++){
+//       ans=ans^arr[i];
+//     }
+//     return ans;
+//   }
+// int main()  {
+//   int n;
+//   cout<<"enter the size of an array"<<endl;
+//   cin>>n;
+//   vector<int>arr(n);
+//   for(int i=0;i<arr.size();i++){
+//     cin>>arr[i];
 
-  }
+//   }
 
-  int uniqueElement = findUnique(arr);
-  cout<<"unique element"<<uniqueElement<<endl;
-   return 0;
+//   int uniqueElement = findUnique(arr);
+//   cout<<"unique element"<<uniqueElement<<endl;
+//    return 0;
+
+
+// UNIOUN OF ARRAY
+
+
+//   int arr[4]={1,2,3,56};
+//   int sizea=4;
+//   int brr[5]={9,8,7,66,99};
+//   int sizeb=5;
+//   vector<int>ans;
+//   for(int i=0;i<sizea;i++){
+//     ans.push_back(arr[i]);
+//   }
+//   for(int i=0;i<sizeb;i++){
+//     ans.push_back(brr[i]);
+
+// }
+// for(int i=0;i<ans.size();i++){
+//   cout<<ans[i]<<endl;
+// }
+// return 0;
+
+
+// INTERSECTION OF ARRAY;
+  // vector<int>arr{1,2,3,4,5,6};
+  // vector<int>brr{1,2,3,488,99};
+  // vector<int>ans;
+
+  // for(int i=0;i<arr.size();i++){
+  //  ` int element = arr[i];
+  //   for(int j=0;j<brr.size();j++){
+  //     if(element==brr[j]){
+  //       ans.push_back(element);
+
+  //     }
+  //   }
+
+  // }
+  // for(auto values: ans){
+  //   cout<<values<<" ";
+
+  // }
+  // cout<<endl;
+  // return 0;
+
+
+  //max and min
+//   int getMax(int num[],int n){
+//     int max=INT8_MIN;
+//     for(int i=0;i<n;i++){
+//       if(num[i]>max){
+//         max=num[i];
+//       }
+//     }
+//     return max;
+//   }
+
+//     int getMin(int num[],int n){
+//     int min=INT8_MAX;
+//     for(int i=0;i<n;i++){
+//       if(num[i]<min){
+//         min=num[i];
+//       }
+
+//   }
+//   return min;
+//     }
+
+// int main(){
+// int size;
+// cin>>size;
+// int num[100];
+// for(int i=0;i<size;i++){
+//   cin>>num[i];
+
+// }
+// cout<<"max value"<<getMax(num,size)<<endl;
+// cout<<"min value"<<getMin(num,size)<<endl;
+
+// }
+// #include<bits/stdc++.h>
+// using namespace std;
+
+
+// int sortArr(vector<int>&arr){
+//   sort(arr.begin(),arr.end());
+//   return arr[0];
+
+
+// }
+// int main(){
+//   vector<int> arr1= {2,5,1,3,0};
+//   vector<int> arr2= {8,10,5,7,9};
+
+//   cout<<"smallest element in the array"<<sortArr(arr1)<<endl;
+//   cout<<"smallest element in the array"<<sortArr(arr2)<<endl;
+
+
+// return 0;
+// }
+
+#include<iostream>
+using namespace std;
+
+void printArray(int ans[],int n){
+ cout<<"the reversed array is "<<endl;
+ for(int i=0;i<n;i++){
+  cout<<ans[i]<<" ";
+ } 
 
 }
+void reverseArray(int arr[],int n){
+  int ans[n];
+  for(int i=n-1;i>=0;i--){
+    ans[n-i-1]=arr[i];
+  }
+  printArray(ans,n);
+}
+int main(){
+  int n=5;
+  int arr[]={5,4,3,2,1};
+  reverseArray(arr,n);
+  return 0;
+}
+
+
+
+
   
 
 
